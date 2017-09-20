@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gilseob.andoridchattingtest.MainPage">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_pic"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/chatView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat Chat Chat!!"
+            android:textSize="70px"
+            android:textColor="#750bc1"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</FrameLayout>
